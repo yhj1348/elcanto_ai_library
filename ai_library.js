@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
+docu남화t.addEventListener("DOMContentLoaded", () => {
     window.allData = [
         {   id: 1, 
             title: "LCMS35M413", 
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "스니커즈", 
             season: "24 SPRING", 
            background: "스튜디오", 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "컴포트화", 
             season: "23 SPRING", 
            background: "스튜디오", 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "스니커즈", 
             season: "24 AUTUMN", 
            background: "스튜디오", 
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "온라인팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "힐", 
             season: "23 SPRING", 
            background: "스튜디오", 
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "영상",
             team: "WEB팀",
             brand: "ELCANTO", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "로퍼/드레스", 
             season: "26 SUMMER", 
             background: "야외", 
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
             team: "WEB팀",
             brand: "ELCANTO", 
             category: "기획전", 
-            gender: "WOMEN", 
+            gender: "여화", 
             season: "25 WINTER", 
             background: "야외", 
             tool: "Grok", 
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "ELCANTO", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "로퍼/드레스", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "샌들", 
             season: "23 SUMMER", 
            background: "스튜디오", 
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "샌들", 
             season: "23 SUMMER", 
            background: "스튜디오", 
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "샌들", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "로퍼/드레스", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "로퍼/드레스", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "슬리퍼/뮬", 
             season: "25 WINTER", 
             background: "야외", 
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "로퍼/드레스", 
             season: "23 AUTUMN", 
            background: "스튜디오", 
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 AUTUMN", 
            background: "스튜디오", 
@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "21 WINTER", 
            background: "스튜디오", 
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "22 WINTER", 
            background: "스튜디오", 
@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "21 WINTER", 
            background: "스튜디오", 
@@ -354,7 +354,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "23 AUTUMN", 
            background: "스튜디오", 
@@ -372,7 +372,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -391,7 +391,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -409,7 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -427,7 +427,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -445,7 +445,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -463,7 +463,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",            
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -481,7 +481,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -499,7 +499,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "23 WINTER", 
            background: "스튜디오", 
@@ -517,7 +517,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -535,7 +535,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "DEEPP", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "23 AUTUMN", 
            background: "스튜디오", 
@@ -553,7 +553,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "로퍼/드레스", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -571,7 +571,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
            background: "스튜디오", 
@@ -589,7 +589,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
            background: "스튜디오", 
@@ -608,7 +608,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
            background: "스튜디오", 
@@ -627,7 +627,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
            background: "스튜디오", 
@@ -645,7 +645,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -663,7 +663,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "22 WINTER", 
            background: "스튜디오", 
@@ -681,7 +681,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -699,7 +699,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -717,7 +717,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
            background: "스튜디오", 
@@ -735,7 +735,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "WOMEN", 
+            gender: "여화", 
             category: "부츠", 
             season: "25 WINTER", 
             background: "야외", 
@@ -753,7 +753,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "MAZZ", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "스니커즈", 
             season: "24 SPRING", 
            background: "스튜디오", 
@@ -771,7 +771,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -789,7 +789,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -807,7 +807,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -825,7 +825,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -843,7 +843,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -861,7 +861,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀",
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -879,7 +879,7 @@ document.addEventListener("DOMContentLoaded", () => {
             type:  "이미지",
             team: "WEB팀", 
             brand: "INTENSE", 
-            gender: "MEN", 
+            gender: "남화", 
             category: "부츠", 
             season: "26 SPRING", 
            background: "스튜디오", 
@@ -915,10 +915,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     renderCards(allData);
-    document.querySelectorAll('.filter-area select').forEach(select => {
+    docu남화t.querySelectorAll('.filter-area select').forEach(select => {
         select.addEventListener('change', applyFilters);
     });
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = docu남화t.getEle남화tById('searchInput');
         if (searchInput) {
             searchInput.addEventListener('keydown', (event) => {
                 if (event.key === 'Enter') {
@@ -929,8 +929,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderCards(data){
-    const gallery = document.getElementById('gallery');
-    const resultCount = document.getElementById('resultCount');
+    const gallery = docu남화t.getEle남화tById('gallery');
+    const resultCount = docu남화t.getEle남화tById('resultCount');
     
     gallery.innerHTML = '';
     resultCount.innerText = `총 ${data.length.toLocaleString()}건의 결과`;
@@ -959,16 +959,16 @@ function renderCards(data){
 
 
 function applyFilters(){
-    const keyword = document.getElementById('searchInput').value.toLowerCase();
-    const type = document.getElementById('type').value;
-    const usage = document.getElementById('usage').value;
-    const team = document.getElementById('team').value;
-    const brand = document.getElementById('brand').value;
-    const gender = document.getElementById('gender').value;
-    const category = document.getElementById('category').value;
-    const season = document.getElementById('season').value;
-    const background = document.getElementById('background').value;
-    const tool = document.getElementById('tool') ? document.getElementById('tool').value : '';
+    const keyword = docu남화t.getEle남화tById('searchInput').value.toLowerCase();
+    const type = docu남화t.getEle남화tById('type').value;
+    const usage = docu남화t.getEle남화tById('usage').value;
+    const team = docu남화t.getEle남화tById('team').value;
+    const brand = docu남화t.getEle남화tById('brand').value;
+    const gender = docu남화t.getEle남화tById('gender').value;
+    const category = docu남화t.getEle남화tById('category').value;
+    const season = docu남화t.getEle남화tById('season').value;
+    const background = docu남화t.getEle남화tById('background').value;
+    const tool = docu남화t.getEle남화tById('tool') ? docu남화t.getEle남화tById('tool').value : '';
 
     /*검색 필터*/
     const result = allData.filter(item=>{
@@ -994,18 +994,18 @@ function applyFilters(){
     });
 
     renderCards(result);
-    document.getElementById('gallery').style.display = 'grid';
-    document.getElementById('resultCount').style.display = 'block';
+    docu남화t.getEle남화tById('gallery').style.display = 'grid';
+    docu남화t.getEle남화tById('resultCount').style.display = 'block';
     showEmptyPanel(); 
 }
 function resetFilters(){
-    document.getElementById('searchInput').value = '';
-    document.querySelectorAll('.filter-area select').forEach(select => select.value = '');
+    docu남화t.getEle남화tById('searchInput').value = '';
+    docu남화t.querySelectorAll('.filter-area select').forEach(select => select.value = '');
     renderCards(allData); 
     
-    document.getElementById('gallery').style.display = 'none';
-    document.getElementById('resultCount').style.display = 'none';
-    document.getElementById('detailPanel').innerHTML = `<div class="empty-panel"></div>`;
+    docu남화t.getEle남화tById('gallery').style.display = 'none';
+    docu남화t.getEle남화tById('resultCount').style.display = 'none';
+    docu남화t.getEle남화tById('detailPanel').innerHTML = `<div class="empty-panel"></div>`;
 }
 
 
@@ -1013,11 +1013,11 @@ function updateDetailPanel(id){
     const item = window.allData.find(v => v.id === id);
     if(!item) return;
 
-    document.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
-    const targetCard = document.getElementById(`card-${id}`);
+    docu남화t.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+    const targetCard = docu남화t.getEle남화tById(`card-${id}`);
     if(targetCard) targetCard.classList.add('selected');
 
-    const detailPanel = document.getElementById('detailPanel');
+    const detailPanel = docu남화t.getEle남화tById('detailPanel');
     
     detailPanel.innerHTML = `
         <div class="panel-content">
@@ -1061,13 +1061,13 @@ function updateDetailPanel(id){
 }
 
 function showEmptyPanel() {
-    document.getElementById('detailPanel').innerHTML = `
+    docu남화t.getEle남화tById('detailPanel').innerHTML = `
         <div class="empty-panel">왼쪽 리스트에서 카드를 클릭하면 상세 정보가 나타납니다.</div>
     `;
 }
 
 function copyPrompt(){
-    const text = document.getElementById('promptText').value;
+    const text = docu남화t.getEle남화tById('promptText').value;
     navigator.clipboard.writeText(text);
     alert('프롬프트가 클립보드에 복사되었습니다.');
 }
