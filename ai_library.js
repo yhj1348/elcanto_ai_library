@@ -1,4 +1,4 @@
-docu남화t.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     window.allData = [
         {   id: 1, 
             title: "LCMS35M413", 
@@ -900,7 +900,7 @@ docu남화t.addEventListener("DOMContentLoaded", () => {
             gender: "비인물", 
             category: "", 
             season: "26 SUMMER", 
-            background: "야외", 
+             background: "야외", 
             tool: "Gemini", 
             created: "2026-06-17", 
             link: "\\\\172.30.235.50\\온라인팀\\New-biz\\전략비즈\\3. 자사몰\\3. 기획전\\2026\\6월\\260622_상반기결산",
@@ -915,10 +915,10 @@ docu남화t.addEventListener("DOMContentLoaded", () => {
 
 
     renderCards(allData);
-    docu남화t.querySelectorAll('.filter-area select').forEach(select => {
+    document.querySelectorAll('.filter-area select').forEach(select => {
         select.addEventListener('change', applyFilters);
     });
-    const searchInput = docu남화t.getEle남화tById('searchInput');
+    const searchInput = document.getElementById('searchInput');
         if (searchInput) {
             searchInput.addEventListener('keydown', (event) => {
                 if (event.key === 'Enter') {
@@ -929,8 +929,8 @@ docu남화t.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderCards(data){
-    const gallery = docu남화t.getEle남화tById('gallery');
-    const resultCount = docu남화t.getEle남화tById('resultCount');
+    const gallery = document.getElementById('gallery');
+    const resultCount = document.getElementById('resultCount');
     
     gallery.innerHTML = '';
     resultCount.innerText = `총 ${data.length.toLocaleString()}건의 결과`;
@@ -959,16 +959,16 @@ function renderCards(data){
 
 
 function applyFilters(){
-    const keyword = docu남화t.getEle남화tById('searchInput').value.toLowerCase();
-    const type = docu남화t.getEle남화tById('type').value;
-    const usage = docu남화t.getEle남화tById('usage').value;
-    const team = docu남화t.getEle남화tById('team').value;
-    const brand = docu남화t.getEle남화tById('brand').value;
-    const gender = docu남화t.getEle남화tById('gender').value;
-    const category = docu남화t.getEle남화tById('category').value;
-    const season = docu남화t.getEle남화tById('season').value;
-    const background = docu남화t.getEle남화tById('background').value;
-    const tool = docu남화t.getEle남화tById('tool') ? docu남화t.getEle남화tById('tool').value : '';
+    const keyword = document.getElementById('searchInput').value.toLowerCase();
+    const type = document.getElementById('type').value;
+    const usage = document.getElementById('usage').value;
+    const team = document.getElementById('team').value;
+    const brand = document.getElementById('brand').value;
+    const gender = document.getElementById('gender').value;
+    const category = document.getElementById('category').value;
+    const season = document.getElementById('season').value;
+    const background = document.getElementById('background').value;
+    const tool = document.getElementById('tool') ? document.getElementById('tool').value : '';
 
     /*검색 필터*/
     const result = allData.filter(item=>{
@@ -994,18 +994,18 @@ function applyFilters(){
     });
 
     renderCards(result);
-    docu남화t.getEle남화tById('gallery').style.display = 'grid';
-    docu남화t.getEle남화tById('resultCount').style.display = 'block';
+    document.getElementById('gallery').style.display = 'grid';
+    document.getElementById('resultCount').style.display = 'block';
     showEmptyPanel(); 
 }
 function resetFilters(){
-    docu남화t.getEle남화tById('searchInput').value = '';
-    docu남화t.querySelectorAll('.filter-area select').forEach(select => select.value = '');
+    document.getElementById('searchInput').value = '';
+    document.querySelectorAll('.filter-area select').forEach(select => select.value = '');
     renderCards(allData); 
     
-    docu남화t.getEle남화tById('gallery').style.display = 'none';
-    docu남화t.getEle남화tById('resultCount').style.display = 'none';
-    docu남화t.getEle남화tById('detailPanel').innerHTML = `<div class="empty-panel"></div>`;
+    document.getElementById('gallery').style.display = 'none';
+    document.getElementById('resultCount').style.display = 'none';
+    document.getElementById('detailPanel').innerHTML = `<div class="empty-panel"></div>`;
 }
 
 
@@ -1013,11 +1013,11 @@ function updateDetailPanel(id){
     const item = window.allData.find(v => v.id === id);
     if(!item) return;
 
-    docu남화t.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
-    const targetCard = docu남화t.getEle남화tById(`card-${id}`);
+    document.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+    const targetCard = document.getElementById(`card-${id}`);
     if(targetCard) targetCard.classList.add('selected');
 
-    const detailPanel = docu남화t.getEle남화tById('detailPanel');
+    const detailPanel = document.getElementById('detailPanel');
     
     detailPanel.innerHTML = `
         <div class="panel-content">
@@ -1061,13 +1061,13 @@ function updateDetailPanel(id){
 }
 
 function showEmptyPanel() {
-    docu남화t.getEle남화tById('detailPanel').innerHTML = `
+    document.getElementById('detailPanel').innerHTML = `
         <div class="empty-panel">왼쪽 리스트에서 카드를 클릭하면 상세 정보가 나타납니다.</div>
     `;
 }
 
 function copyPrompt(){
-    const text = docu남화t.getEle남화tById('promptText').value;
+    const text = document.getElementById('promptText').value;
     navigator.clipboard.writeText(text);
     alert('프롬프트가 클립보드에 복사되었습니다.');
 }
